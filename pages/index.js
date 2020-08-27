@@ -48,7 +48,7 @@ export default function Home() {
   <div class="bg-white  rounded overflow-hidden shadow-lg">
     <img class="w-full" src="/card01.jpg" alt="Sunset in the mountains"></img>
     <div class="px-6 py-4">
-      <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+      <div class="font-bold text-xl mb-2">The Coldest Sunrise</div>
       <p class="text-gray-700 text-base">
       Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis
       ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
