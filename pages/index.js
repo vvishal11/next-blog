@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -38,15 +39,16 @@ export default function Home() {
 </div>
 
 {/*body starts*/}
-<div class = "flex bg-gray-200 p-10 md:px-12 lg:px-16 pt-16">
+<div class = "flex bg-gray-200 p-6 md:px-12 lg:px-16 md:pt-16 pt-10">
 
 {/*cards start*/}
 <div>
 
 {/*card01 starts*/}
-<div class = "pb-16 max-w-4xl" >
+<Link href ="index_bak"><a>
+<div class = "mb-16 max-w-4xl">
   <div class="bg-white  rounded overflow-hidden shadow-lg">
-    <img class="w-full" src="/card01.png" alt="Sunset in the mountains"></img>
+    <img class="w-full h-auto" src="/card01.jpg" alt="Sunset in the mountains"></img>
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2">The Coldest Sunrise</div>
       <p class="text-gray-700 text-base">
@@ -69,13 +71,14 @@ export default function Home() {
 
   </div>
 
-
 </div>
+</a></Link>
 {/*card01 ends*/}
 
 
 {/*card02 starts*/}
-<div class = "pb-16 max-w-4xl" >
+<Link href ="card_content"><a>
+<div class = "mb-16 max-w-4xl" >
   <div class="bg-white  rounded overflow-hidden shadow-lg">
     <img class="w-full" src="/card02.jpg" alt="Sunset in the mountains"></img>
     <div class="px-6 py-4">
@@ -97,6 +100,7 @@ export default function Home() {
     </div>
   </div>
 </div>
+</a></Link>
 {/*card02 ends*/}
 
 
@@ -153,7 +157,6 @@ export default function Home() {
   </div>
 </div>
 {/*card04 ends*/}
-
 
 
 
