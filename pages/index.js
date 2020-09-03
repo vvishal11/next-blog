@@ -9,8 +9,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+    <div class="flex justify-between bg-gray-900 w-full p-6">
+  <div class="font-semibold text-xl text-white text-center">Infinity/Zero</div>
+</div>
+
+ 
 {/*Navigation bar starts*/}
-<div>
+{/* 
+<div class="hidde">
   <nav class="flex items-center justify-between flex-wrap bg-gray-900 p-6">
   <div class=" flex items-center flex-shrink-0 text-white mr-6 ">
     <svg class="hidden fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
@@ -35,8 +41,9 @@ export default function Home() {
     </div>
   </div>
 </nav>
+</div> 
+ */}
 {/*Navigation bar ends*/}
-</div>
 
 {/*body starts*/}
 <div class = "flex bg-gray-200 p-6 md:px-12 lg:px-16 md:pt-16 pt-10">
@@ -44,11 +51,11 @@ export default function Home() {
 {/*cards start*/}
 <div>
 
-{/*card01 starts*/}
-<Link href ="index_bak"><a>
+{/*card04 starts*/}
+<Link href ="card_content04"><a>
 <div class = "mb-16 max-w-4xl">
   <div class="bg-white  rounded overflow-hidden shadow-lg">
-    <img class="w-full h-auto" src="/card01.jpg" alt="Sunset in the mountains"></img>
+    <img class="w-full h-auto" src="/card04.jpg" alt="Sunset in the mountains"></img>
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2">The Coldest Sunrise</div>
       <p class="text-gray-700 text-base">
@@ -73,14 +80,14 @@ export default function Home() {
 
 </div>
 </a></Link>
-{/*card01 ends*/}
+{/*card04 ends*/}
 
 
-{/*card02 starts*/}
+{/*card03 starts*/}
 <Link href ="card_content"><a>
 <div class = "mb-16 max-w-4xl" >
   <div class="bg-white  rounded overflow-hidden shadow-lg">
-    <img class="w-full" src="/card02.jpg" alt="Sunset in the mountains"></img>
+    <img class="w-full" src="/card03.jpg" alt="Sunset in the mountains"></img>
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2">The Joyful Sunrise</div>
       <p class="text-gray-700 text-base">
@@ -101,40 +108,13 @@ export default function Home() {
   </div>
 </div>
 </a></Link>
-{/*card02 ends*/}
-
-
-{/*card03 starts*/}
-<div class = "pb-16 max-w-4xl" >
-  <div class="bg-white  rounded overflow-hidden shadow-lg">
-    <img class="w-full" src="/card03.jpg" alt="Sunset in the mountains"></img>
-    <div class="px-6 py-4">
-      <div class="font-bold text-xl mb-2">The Hottest Midnight</div>
-      <p class="text-gray-700 text-base">
-      Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis
-      ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-      Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Sed posuere consectetur est at lobortis. […]
-      </p>
-    </div>
-    <div class="px-6 py-4">
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#photography</span>
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#travel</span>
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#winter</span>
-    </div>
-
-    <div class=" border-t border-gray-300  mt-4 ml-10 mr-10 "></div>
-    <div class="flex">
-    <div class="p-1 px-2 ml-6 mt-6 mb-10 bg-gray-400 inline-block shadow-lg italic"> Category: </div>
-    <div class="p-1 ml-6 mt-6 mb-10 bg-gray-200 inline-block shadow-lg italic"> Uncategorised </div>
-    </div>
-  </div>
-</div>
 {/*card03 ends*/}
 
-{/*card04 starts*/}
+
+{/*card02 starts*/}
 <div class = "pb-16 max-w-4xl" >
   <div class="bg-white  rounded overflow-hidden shadow-lg">
-    <img class="w-full" src="/card04.jpg" alt="Sunset in the mountains"></img>
+    <img class="w-full" src="/card02.jpg" alt="Sunset in the mountains"></img>
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2">The Hottest Midnight</div>
       <p class="text-gray-700 text-base">
@@ -156,7 +136,34 @@ export default function Home() {
     </div>
   </div>
 </div>
-{/*card04 ends*/}
+{/*card02 ends*/}
+
+{/*card01 starts*/}
+<div class = "pb-16 max-w-4xl" >
+  <div class="bg-white  rounded overflow-hidden shadow-lg">
+    <img class="w-full" src="/card01.jpg" alt="Sunset in the mountains"></img>
+    <div class="px-6 py-4">
+      <div class="font-bold text-xl mb-2">The Hottest Midnight</div>
+      <p class="text-gray-700 text-base">
+      Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis
+      ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+      Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Sed posuere consectetur est at lobortis. […]
+      </p>
+    </div>
+    <div class="px-6 py-4">
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#photography</span>
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#travel</span>
+      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#winter</span>
+    </div>
+
+    <div class=" border-t border-gray-300  mt-4 ml-10 mr-10 "></div>
+    <div class="flex">
+    <div class="p-1 px-2 ml-6 mt-6 mb-10 bg-gray-400 inline-block shadow-lg italic"> Category: </div>
+    <div class="p-1 ml-6 mt-6 mb-10 bg-gray-200 inline-block shadow-lg italic"> Uncategorised </div>
+    </div>
+  </div>
+</div>
+{/*card01 ends*/}
 
 
 
@@ -190,7 +197,7 @@ export default function Home() {
 
 <div class="grid grid-cols-1 gap-6 ml-8 mt-6">
   <div class="flex ">
-  <img class="w-20 objet-cover" src="/card01.jpg" alt="Sunset in the mountains"></img>
+  <img class="w-20 objet-cover" src="/card04.jpg" alt="Sunset in the mountains"></img>
   <div class="ml-2"> 
   <p class="text-ml">The Coldest Sunset</p>
   <p class="italic text-sm">January 25, 2020</p>
@@ -201,7 +208,7 @@ export default function Home() {
 
 
     <div class="flex ">
-  <img class="w-20 objet-cover" src="/card02.jpg" alt="Sunset in the mountains"></img>
+  <img class="w-20 objet-cover" src="/card03.jpg" alt="Sunset in the mountains"></img>
 
   <div class="ml-2"> 
   <p class="text-ml">The Joyful Sunrise</p>
@@ -210,7 +217,7 @@ export default function Home() {
     </div>
 
     <div class="flex ">
-  <img class="w-20 objet-cover" src="/card03.jpg" alt="Sunset in the mountains"></img>
+  <img class="w-20 objet-cover" src="/card02.jpg" alt="Sunset in the mountains"></img>
   <div class="ml-2"> 
   <p class="text-ml">The Hottest Midnight</p>
   <p class="italic text-sm">January 25, 2020</p>
@@ -218,7 +225,7 @@ export default function Home() {
      </div>
 
     <div class="flex">
-  <img class="w-20 objet-cover" src="/card04.jpg" alt="Sunset in the mountains"></img>
+  <img class="w-20 objet-cover" src="/card01.jpg" alt="Sunset in the mountains"></img>
   <div class="ml-2"> 
   <p class="text-ml">The Pace Of Time</p>
   <p class="italic text-sm">January 25, 2020</p>
